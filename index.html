@@ -4,263 +4,212 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>CompareCard.Creditcard – How to Compare Credit Cards Properly</title>
-  <meta name="description" content="CompareCard.creditcard explains how to compare credit cards: APR, fees, rewards, benefits, risk and usability. A neutral framework before you choose a card." />
+  <title>CompareCard.Creditcard – How to Compare Credit Cards Smartly</title>
+  <meta name="description" content="Learn how to compare credit cards objectively: fees, rewards, benefits, use-case alignment and how to choose a card that matches your spending and lifestyle." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://comparecard.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="CompareCard.Creditcard – Credit Card Comparison Framework" />
-  <meta property="og:description" content="Learn how to compare credit cards properly: APR vs fees, rewards vs risk, benefits vs real usage — before you apply." />
+  <meta property="og:title" content="CompareCard.Creditcard – Smart Credit-Card Comparison Guide" />
+  <meta property="og:description" content="Independent framework for comparing credit cards: categories like cash-back, travel, fees, perks and card types to help you make an informed choice." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://comparecard.creditcard/" />
   <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CompareCard.Creditcard – How to Compare Credit Cards" />
-  <meta name="twitter:description" content="Independent guide to comparing credit cards across price, rewards, features and risk." />
+  <meta name="twitter:title" content="CompareCard.Creditcard – Smart Credit-Card Comparison Guide" />
+  <meta name="twitter:description" content="Neutral guide on how to compare credit cards based on fees, rewards, perks and your personal spending profile." />
   <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-64FE63JQ3H"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-64FE63JQ3H');
   </script>
 
+  <!-- Tailwind for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Shared minisite styles -->
   <link rel="stylesheet" href="./styles.css" />
 </head>
-
 <body class="bg-slate-950 text-slate-100">
-
-<header class="site-header">
-  <div class="nav-inner max-w-6xl">
-
-    <div class="brand">
-      <div class="cc-logo">CC</div>
-      <div class="brand-text">
-        <div class="brand-title">CompareCard.Creditcard</div>
-        <div class="brand-subtitle">How to Compare Credit Cards</div>
+  <header class="site-header">
+    <div class="nav-inner max-w-6xl">
+      <div class="brand">
+        <div class="cc-logo">CC</div>
+        <div class="brand-text">
+          <div class="brand-title">CompareCard.Creditcard</div>
+          <div class="brand-subtitle">Smart Credit-Card Comparison Guide</div>
+        </div>
       </div>
+      <nav class="nav-links" aria-label="Page navigation">
+        <a href="#overview">Overview</a>
+        <a href="#criteria">What to Compare</a>
+        <a href="#process">How to Compare</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="cc-page">
+    <!-- Breadcrumb -->
+    <div class="cc-breadcrumb">
+      <a href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
+      &nbsp;›&nbsp;
+      CompareCard.Creditcard
     </div>
 
-    <nav class="nav-links">
-      <a href="#overview">Overview</a>
-      <a href="#criteria">Criteria</a>
-      <a href="#compare">Compare</a>
-    </nav>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>How to Choose the Right Credit Card — the Smart Way</h1>
+        <p class="hero-lead">
+          With hundreds of credit cards out there, “best” depends entirely on you. This page shows a methodical, independent way to compare cards — based on your spending, financial goals and lifestyle — so you get one that truly fits.
+        </p>
+        <a class="cta" href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=hero_cta">
+          Browse credit-card comparisons
+        </a>
+      </div>
+    </section>
 
-  </div>
-</header>
+    <!-- Content sections -->
+    <section id="overview" class="section">
+      <h2>Why a Comparison Method Matters</h2>
+      <p>Every card has trade-offs: high rewards but high fees, great travel perks but limited local benefits, etc. By defining what matters for *you* first, then comparing cards against those criteria, you avoid falling for marketing hype and pick a card that makes sense long term.</p>
+      <p>A good comparison helps you weigh benefits like rewards, perks, fees and flexibility — not just headline numbers — so you end up with a card that matches your real habits and goals.</p>
+    </section>
 
-<main class="cc-page">
+    <section id="criteria" class="section">
+      <h2>Key Criteria to Compare When Choosing a Card</h2>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Criterion</th>
+              <th>What to Evaluate</th>
+              <th>Why It Matters</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fees & Costs</td>
+              <td>Annual fee, FX fees, interest rates, extra-card charges</td>
+              <td>Determines the baseline cost before you get any value from rewards or perks.</td>
+            </tr>
+            <tr>
+              <td>Rewards / Earn Rates</td>
+              <td>Cash-back, points, miles — base rate vs bonus categories</td>
+              <td>Shows how much value you get from everyday spending.</td>
+            </tr>
+            <tr>
+              <td>Perks & Benefits</td>
+              <td>Lounge access, insurance, credits, travel or purchase perks</td>
+              <td>Offsets fees and adds utility, especially if you use travel or premium services.</td>
+            </tr>
+            <tr>
+              <td>Flexibility & Restrictions</td>
+              <td>Redemption options, reward expiry, caps, foreign currency handling</td>
+              <td>Affects long-term usefulness and real-world value of earned rewards.</td>
+            </tr>
+            <tr>
+              <td>Compatibility with Your Life</td>
+              <td>Your spending pattern, travel frequency, online habits</td>
+              <td>Ensures the card works for *you*, not for a hypothetical “average user.”</td>
+            </tr>
+            <tr>
+              <td>Transparency & Terms</td>
+              <td>Known fees, clear fine print, issuer reputation, benefit terms</td>
+              <td>Reduces surprises and makes usage predictable.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
 
-  <!-- Breadcrumb -->
-  <div class="cc-breadcrumb">
-    <a href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
-    &nbsp;›&nbsp;
-    Compare Cards
-  </div>
+    <section id="process" class="section">
+      <h2>A Step-by-Step Comparison Process</h2>
+      <ol class="list">
+        <li>List all your typical spending categories (e.g. groceries, travel, subscriptions, foreign transactions).</li>
+        <li>Identify what card features matter to you (e.g. low fees, travel perks, cashback, no-FX fees).</li>
+        <li>Gather 5–10 candidate cards whose benefits roughly match your needs.</li>
+        <li>Make a comparison table (or spreadsheet) using the criteria above.</li>
+        <li>Run realistic “scenarios” using your actual spend amounts to estimate net value.</li>
+        <li>Factor in intangibles: flexibility, simplicity, issuer reliability.</li>
+        <li>Choose the card that gives the highest net benefit with acceptable risk and complexity.</li>
+      </ol>
+      <p>Revisit the comparison periodically — as your spending changes or card products evolve, the “best” card for you may shift too.</p>
+    </section>
 
-  <!-- Hero -->
-  <section class="hero">
-    <h1>A Clear Framework for Comparing Credit Cards</h1>
-    <p class="hero-lead">
-      CompareCard.Creditcard gives you a neutral framework for comparing card offers: not just marketing headlines, but APR, fees, rewards, benefits, risk and everyday usability.
-    </p>
+    <!-- Cluster links -->
+    <section class="section">
+      <h2>Explore Related Credit-Card Concepts</h2>
+      <div class="cluster-grid">
+        <a class="cluster-card" href="https://earn.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_earn">
+          <h3>Earn.Creditcard</h3>
+          <p>Understand how cards earn rewards and what to expect from them.</p>
+        </a>
+        <a class="cluster-card" href="https://benefits.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_benefits">
+          <h3>Benefits.Creditcard</h3>
+          <p>Breakdown of premium perks that can add value beyond earn rates.</p>
+        </a>
+        <a class="cluster-card" href="https://loyalty.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_loyalty">
+          <h3>Loyalty.Creditcard</h3>
+          <p>How long-term loyalty and status tie into card value.</p>
+        </a>
+        <a class="cluster-card" href="https://access.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_access">
+          <h3>Access.Creditcard</h3>
+          <p>Understanding access features like ATM networks, wallet support and privileges.</p>
+        </a>
+        <a class="cluster-card" href="https://change.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_change">
+          <h3>Change.Creditcard</h3>
+          <p>Guidance on switching or upgrading cards as your needs evolve.</p>
+        </a>
+      </div>
+    </section>
 
-    <a class="cta" href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=hero_cta">
-      Go to the main comparison hub
-    </a>
-  </section>
+    <!-- Collection section -->
+    <section class="section">
+      <h2>Part of The CreditCard Collection</h2>
+      <p class="small">
+        CompareCard.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of informational microsites by ronarn AS, aiming to help you choose cards that align with your real life, not just marketing.  
+      </p>
+      <p class="small">
+        We do not issue cards or favor specific products. Our goal is to equip you with a comparison framework so you can evaluate options clearly and independently.  
+      </p>
+      <p class="small">
+        This site is informational only and does not constitute financial advice. Always verify card terms and provider disclosures before applying.  
+      </p>
 
-  <!-- Overview -->
-  <section id="overview" class="section">
-    <h2>Why “Card A vs Card B” Is Harder Than It Looks</h2>
-    <p>Card marketing pages are designed to highlight a few attractive numbers and hide complexity. A good comparison has to:</p>
+      <!-- REQUIRED HUB SNIPPET – root (Comparison hub) -->
+      <div class="hub-link">
+        <a href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=minisite_to_hub"
+           class="text-sm text-slate-600 hover:text-slate-900">
+          Compare cards at Choose.Creditcard
+        </a>
+      </div>
+    </section>
 
-    <ul class="list">
-      <li>Look at <strong>total cost</strong> (fees + interest) over real usage.</li>
-      <li>Measure <strong>realistic reward value</strong>, not just headline percentages.</li>
-      <li>Consider <strong>benefits</strong> you will actually use, not theoretical perks.</li>
-      <li>Factor in <strong>risk & behaviour</strong>: are you a revolver or always-pay-in-full?</li>
-    </ul>
-
-    <p>CompareCard.Creditcard focuses on the structure of comparisons so you can use any table or tool more intelligently.</p>
-  </section>
-
-  <!-- Criteria -->
-  <section id="criteria" class="section">
-    <h2>Core Criteria for Any Card Comparison</h2>
-    <p>Before looking at brand or design, check at least these six pillars:</p>
-
-    <ul class="list">
-      <li><strong>Base APR:</strong> what you pay if you carry a balance.</li>
-      <li><strong>Fees:</strong> annual, foreign, cash advance, late, and “hidden” maintenance fees.</li>
-      <li><strong>Rewards:</strong> cashback, points, miles & exact earn rates per category.</li>
-      <li><strong>Benefits:</strong> insurance, lounge access, purchase protection, guarantees.</li>
-      <li><strong>Limits & approvals:</strong> typical credit limits, approval difficulty.</li>
-      <li><strong>UX & controls:</strong> quality of app, notifications, toggles & support.</li>
-    </ul>
-
-    <p>Two cards with similar rewards can be radically different once you bring APR, fees and friction into the picture.</p>
-  </section>
-
-  <section class="section">
-    <h2>Match Cards to Real-Life Use Cases</h2>
-    <p>There is no universal “best” card. Instead, ask:</p>
-
-    <ul class="list">
-      <li>Do you pay in full monthly or often carry a balance?</li>
-      <li>Is most spending domestic, online, or travel-heavy?</li>
-      <li>Do you value cash simplicity or travel optimisation?</li>
-      <li>Do you need protection & insurance more than raw rewards?</li>
-    </ul>
-
-    <p>Comparisons should always start from <em>your pattern</em>, then rank cards accordingly — not the other way around.</p>
-  </section>
-
-  <section class="section">
-    <h2>Beware of Single-Number Rankings</h2>
-    <p>Many comparison lists try to boil everything down to one score or “Top 10” list. That is convenient, but:</p>
-
-    <ul class="list">
-      <li>Weightings are rarely explained.</li>
-      <li>Sponsored placements can distort rankings.</li>
-      <li>What’s “best overall” might be bad for your situation.</li>
-    </ul>
-
-    <p>Use aggregated scores as a starting point, then drill down into how the card behaves for your specific scenario.</p>
-  </section>
-
-  <!-- Comparison Table -->
-  <section id="compare" class="section">
-    <h2>Side-by-Side Comparison Checklist</h2>
-
-    <div class="table-wrap">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Dimension</th>
-            <th>Card A</th>
-            <th>Card B</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Annual Fee (net of credits)</td>
-            <td>_____</td>
-            <td>_____</td>
-          </tr>
-          <tr>
-            <td>Typical APR Range</td>
-            <td>_____</td>
-            <td>_____</td>
-          </tr>
-          <tr>
-            <td>FX Markup & Travel Fees</td>
-            <td>_____</td>
-            <td>_____</td>
-          </tr>
-          <tr>
-            <td>Main Earn Rates (e.g. groceries, fuel, travel)</td>
-            <td>_____</td>
-            <td>_____</td>
-          </tr>
-          <tr>
-            <td>Core Benefits You’ll Actually Use</td>
-            <td>_____</td>
-            <td>_____</td>
-          </tr>
-          <tr>
-            <td>App & Control Quality (subjective)</td>
-            <td>_____</td>
-            <td>_____</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <p class="small">
-      For actual pre-filled comparison tables and calculators, go to  
-      <a href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=comparison_section">
-        Choose.Creditcard
-      </a>.
-    </p>
-  </section>
-
-  <!-- Cluster Links -->
-  <section class="section">
-    <h2>Dive Deeper into Specific Comparison Angles</h2>
-
-    <div class="cluster-grid">
-      <a class="cluster-card" href="https://apr.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_apr">
-        <h3>APR.Creditcard</h3>
-        <p>Understand interest, APR and the cost of revolving.</p>
+    <!-- Bottom CTA -->
+    <section class="section">
+      <h2>Ready to Compare Cards for Your Needs?</h2>
+      <p class="small">
+        Use CompareCard.Creditcard to build your comparison framework — then head to the main hub to explore actual card offers and find the best match for your spending and lifestyle.
+      </p>
+      <a class="cta" href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
+        Go to Choose.Creditcard
       </a>
+    </section>
+  </main>
 
-      <a class="cluster-card" href="https://rewards.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_rewards">
-        <h3>Rewards.Creditcard</h3>
-        <p>Compare rewards, points, miles & cashback structures.</p>
-      </a>
-
-      <a class="cluster-card" href="https://benefits.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_benefits">
-        <h3>Benefits.Creditcard</h3>
-        <p>Card benefits, insurances and protections.</p>
-      </a>
-
-      <a class="cluster-card" href="https://travelrewards.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_travelrewards">
-        <h3>TravelRewards.Creditcard</h3>
-        <p>Travel points, miles and redemptions.</p>
-      </a>
-
-      <a class="cluster-card" href="https://creditbuilder.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=cluster_creditbuilder">
-        <h3>CreditBuilder.Creditcard</h3>
-        <p>Comparing options when your credit is still growing.</p>
-      </a>
-    </div>
-  </section>
-
-  <!-- Collection Section -->
-  <section class="section">
-    <h2>Part of The CreditCard Collection</h2>
-    <p class="small">
-      CompareCard.Creditcard is the comparison-method spoke in <strong>The CreditCard Collection</strong>, a network of focused microsites operated by ronarn AS.
+  <footer class="mini-footer">
+    <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
+    <p class="mini-footer-contact">
+      Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
     </p>
-    <p class="small">
-      We explain the logic behind comparisons, so you can read any table or ranking with a clearer understanding of what matters.
-    </p>
-    <p class="small">
-      For live, product-level comparisons and filters, visit  
-      <a href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=collection_section">
-        Choose.Creditcard
-      </a>.
-    </p>
-  </section>
-
-  <!-- Bottom CTA -->
-  <section class="section">
-    <h2>Ready to Compare Real Cards?</h2>
-    <p class="small">
-      Use this framework as your checklist — then apply it to concrete cards and offers using an independent comparison hub.
-    </p>
-
-    <a class="cta" href="https://choose.creditcard/?utm_source=comparecard.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
-      Open Choose.Creditcard comparison
-    </a>
-  </section>
-
-</main>
-
-<footer class="mini-footer">
-  <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
-  <p class="mini-footer-contact">
-    Contact: <a href="mailto:support@cc.creditcard">support@cc.creditcard</a>
-  </p>
-</footer>
-
+  </footer>
 </body>
 </html>
